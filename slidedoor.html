@@ -5,6 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- <link rel="stylesheet" href="./reset.css" /> -->
+    <style>
+      body {
+        background-color: #eee;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .menu {
+        width: 300px;
+        height: 500px;
+        background-color: rgba(105, 101, 101, 0.6);
+        padding: 20px 0;
+        margin: 100px;
+        position: relative;
+      }
+      .menu ul {
+        list-style: none;
+      }
+      .menu ul li {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        text-align: left;
+        /* text-decoration: none; */
+        padding-left: 20px;
+        box-sizing: border-box;
+      }
+      .menu ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      .menu ul li:hover {
+        background-color: orange;
+        /* color: white; */
+      }
+      .secondmenu {
+        width: 600px;
+        height: 540px;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        left: 300px;
+        padding: 20px;
+        box-sizing: border-box;
+        display: none;
+        border: 1px solid #eee;
+        border-left: none;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+        transition: 1s all 0.5s linear;
+      }
+      .menu ul li:hover .secondmenu {
+        /* width: 1000px; */
+        display: block;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="menu">
+      <ul>
+        <li>
+          <a href="#">Beauty</a>
+          <div class="secondmenu">Content1</div>
+        </li>
+        <li>
+          <a href="#">Makeup</a>
+          <div class="secondmenu">Content2</div>
+        </li>
+        <li>
+          <a href="#">Sports</a>
+          <div class="secondmenu">Content3</div>
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>
