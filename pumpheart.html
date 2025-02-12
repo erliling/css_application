@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body,
+      html {
+        width: 100%;
+        height: 100%;
+      }
+      body {
+        background-color: pink;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+      }
+      .heart {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        position: relative;
+        transform: rotate(45deg);
+        box-shadow: 0 0 30px red;
+        animation: pumpheart 1s alternate infinite;
+      }
+      .heart::before {
+        content: "";
+        width: 200px;
+        height: 100px;
+        background-color: red;
+        position: absolute;
+        top: -99px;
+        left: 0;
+        border-radius: 200px 200px 0 0;
+        box-shadow: 0 0 30px red;
+      }
+      .heart::after {
+        content: "";
+        width: 100px;
+        height: 200px;
+        background-color: red;
+        position: absolute;
+        top: 0px;
+        left: -99px;
+        border-radius: 200px 0 0 200px;
+        box-shadow: 0 0 30px red;
+      }
+      @keyframes pumpheart {
+        0% {
+          transform: rotate(45deg) scale(0.6);
+        }
+        100% {
+          transform: rotate(45deg) scale(1.4);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="heart"></div>
+  </body>
+</html>
