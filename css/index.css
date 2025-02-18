@@ -78,6 +78,9 @@
     color: #b0b0b0;
     /* font-size: 16px; */
 }
+.app {
+    position: relative;
+}
 .download {
     width: 124px;
     height: 0;
@@ -265,7 +268,7 @@
 .secondinfo {
     /* width: calc(100vw); */
     width: 100%;
-    height: 160px;
+    height: 0;
     background-color: #fff;
     border-top: 1px solid #eee;
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
