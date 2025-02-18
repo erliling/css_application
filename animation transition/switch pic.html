@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .outer {
+        width: 60px;
+        height: 60px;
+        background-color: pink;
+        position: relative;
+        overflow: hidden;
+      }
+      .outer:hover > .inner {
+        left: 10px;
+      }
+      .outer:hover > .inner2 {
+        left: -50px;
+      }
+      .inner,
+      .inner2 {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        transition: 0.2s all linear;
+      }
+      .inner {
+        width: 40px;
+        height: 40px;
+        background-color: lightblue;
+        left: -50px;
+      }
+      .inner2 {
+        width: 40px;
+        height: 40px;
+        background-color: lightgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="inner"></div>
+      <div class="inner2"></div>
+    </div>
+  </body>
+</html>
