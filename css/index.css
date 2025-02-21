@@ -1,5 +1,6 @@
 .body {
     background-color: #f1f1f1;
+    height: 2600px;
 }
 /* header start */
 .header {
@@ -327,4 +328,91 @@
 .price {
     color: orange;
 }
-/* whhite nav end */
+/* white nav end */
+
+
+/* banner start */
+.banner {
+    width: 100%;
+    height: 460px;
+}
+.banner .container2 {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    /* background-color: lightblue; */
+}
+.ad {
+    width: 100%;
+    height: 460px;
+    background-color: #e7e7e7;
+}
+.sidenav {
+    width: 234px;
+    height: 420px;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    
+}
+.sidenav li {
+    /* width: 100%; */
+    /* background-color: lightgreen; */
+    /* margin: 14px 20px; */
+    height: 42px;
+    line-height: 42px;
+    text-align: left;
+    padding: 0 30px;
+}
+.sidenav li a {
+    font-size: 14px;
+    color: #e7e7e7;
+}
+
+.sidenav>li:hover {
+    background-color: #ff6700;
+}
+.sidenav li:hover a {
+    /* color: ; */
+}
+.sidenav .secondmenu {
+    width: 0;
+    height: 460px;
+    background-color: white;
+    position: absolute;
+    left: 234px;
+    top: 0;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* transition: 0.3s all linear; */
+}
+.secondmenu li {
+    width: 150px;
+    height: 40px;
+    /* background-color: lightcoral; */
+    text-align: center;
+    position: relative;
+    padding: 10px 30px;
+}
+
+.secondmenu li:hover span {
+    color: #ff6700;
+}
+
+.secondmenu li a {
+    color: #333;
+}
+.secondmenu .img8 {
+    width: 20px;
+    height: 30px;
+    background-color: green;
+    position: absolute;
+    top: 15px;
+}
+.sidenav .cellphone:hover .secondmenu {
+    width: 966px;
+}
+/* banner end */
