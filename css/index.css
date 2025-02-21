@@ -375,9 +375,7 @@
 .sidenav>li:hover {
     background-color: #ff6700;
 }
-.sidenav li:hover a {
-    /* color: ; */
-}
+
 .sidenav .secondmenu {
     width: 0;
     height: 460px;
