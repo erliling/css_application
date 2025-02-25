@@ -425,7 +425,7 @@
     background-color: white;
     margin: 10px 0;
 }
-.banner2 .container3 {
+.container3 {
     width: 1200px;
     height: 100%;
     margin: 0 auto;
@@ -476,3 +476,77 @@
     margin-left: 10px;
 }
 /* banner2 end */
+
+/* phone start */
+.content {
+    width: 100%;
+    height: 700px;
+    /* padding: 10px 0; */
+    background-color: #f0f0f0;
+    /* overflow: hidden; */
+}
+.content .phoneleft {
+    width: 234px;
+    height: 614px;
+    background-color: darkblue;
+    float: left
+}
+.content .title {
+    text-align: left;
+    color: #333;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 40px;
+}
+.content .phoneright {
+    width: 966px;
+    float: left;
+}
+.phoneright li {
+    
+}
+.phoneright .item {
+    width: 231px;
+    height: 302px;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+    font-size: 14px;
+    transition: 0.3s all linear;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.phoneright .item:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+.phoneright .item .img11 {
+    width: 80px;
+    height: 120px;
+    background-color: darkgreen;
+    margin: 50px auto 30px;
+
+}
+.phoneright .item span {
+    display: block;
+}
+.phoneright .item .title2 {
+    width: 214px;
+    height: 21px;
+    color: #333;
+    line-height: 21px;
+    margin: 0 auto 2px;
+}
+.phoneright .item .desc {
+    width: 214px;
+    height: 18px;
+    color: #b0b0b0;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 auto 10px;
+}
+.phoneright .item .price {
+    font-size: 14px;
+    color: #ff6700;
+}
