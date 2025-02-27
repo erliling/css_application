@@ -773,4 +773,68 @@
 .service .item:last-child {
     border-right: 0;
 }
+
+.footer .links {
+    width: 960px;
+    height: 100%;
+    /* background-color: pink; */
+    float: left;
+    padding: 25px 0 50px;
+}
+
+.links ul {
+    width: 160px;
+    float: left;
+}
+.links .name {
+    width: 960px;
+    /* height: 40px; */
+    font-size: 16px;
+    /* line-height: 40px; */
+    color: #333;
+    margin-bottom: 16px;
+}
+.links .desc {
+    width: 960px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5f5750;
+}
+.footer .info {
+    width: 240px;
+    height: 100%;
+    /* background-color: pink; */
+    float: left;
+    padding: 25px 0 50px;
+    text-align: center;
+}
+.info .number {
+    width: 240px;
+    font-size: 18px;
+    color: #ff6700;
+}
+.info .desc {
+    width: 240px;
+    font-size: 14px;
+    color: #5f5750
+}
+.info .btn {
+    width: 100px;;
+    height: 25px;
+    border: 1px solid #ff6700;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 22px;
+    margin: 2px auto 10px;
+    box-sizing: border-box;
+}
+
+.info a {
+    font-size: 14px;
+    color: #ff6700
+}
+.follow .desc {
+    margin-right: 5px;
+}
 /* footer end */
